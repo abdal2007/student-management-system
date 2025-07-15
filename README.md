@@ -46,6 +46,22 @@ python manage.py migrate
 # 5️⃣ Start the server
 python manage.py runserver
 
+```
+
+
+
+---
+## 🖼 **Screenshots**
+
+### Login page
+![Login](screenshots/Login.png)
+
+### Student list
+![List](screenshots/Home.png)
+
+### Add Student
+![Add](screenshots/add_student.png)
+
 
 ---
 
