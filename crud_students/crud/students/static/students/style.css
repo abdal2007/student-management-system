@@ -1,0 +1,25 @@
+/* style.css */
+
+/* Body ka background halka grey */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Headings ko thoda dark */
+h1, h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Table ko aur clean look */
+table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Buttons ki spacing */
+.btn {
+    margin: 2px;
+}

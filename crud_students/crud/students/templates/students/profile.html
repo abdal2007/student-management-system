@@ -1,0 +1,12 @@
+{% extends 'students/base.html' %}
+{% block title %}Add Student{% endblock %}
+{% block content %}
+<h2>👤 Profile Page</h2>
+
+<p><strong>Username:</strong> {{ user.username }}</p>
+<a class="btn btn-primary" href="{% url 'edit_profile' %}">✏️ Edit Profile</a>
+
+
+<a href="{% url 'student_list' %}">⬅️ Back to list</a>
+
+{% endblock %}
